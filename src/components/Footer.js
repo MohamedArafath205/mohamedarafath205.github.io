@@ -25,9 +25,9 @@ const Footer = () => {
           <h4>About Myself</h4>
           <p>Hello, I am Mohamed Arafath. I am an Machine Learning Enthusiast. I have done many projects related to Machine Learning. Please visit my projects page for more details.</p>
           <div className='social'>
-            <FaInstagram size={30} style={{color: "#ffffff", marginRight: '1rem'}} />
-            <FaGithub size={30} style={{color: "#ffffff", marginRight: '1rem'}} />
-            <FaLinkedin size={30} style={{color: "#ffffff", marginRight: '1rem'}} />
+            <a href='https://www.instagram.com/mohamedarafath205/'><FaInstagram size={30} style={{marginRight: '1rem'}} /></a>
+            <a href='https://github.com/MohamedArafath205'><FaGithub size={30} style={{color: "#ffffff", marginRight: '1rem'}} /></a>
+            <a href='https://www.linkedin.com/in/mohdarafath/'><FaLinkedin size={30} style={{color: "#ffffff", marginRight: '1rem'}} /></a>
           </div>
         </div>
       </div>

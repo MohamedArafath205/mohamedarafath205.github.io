@@ -26,6 +26,10 @@
     background-color: #141414;
 }
 
+.card:hover h3{
+    color: #eee;
+}
+
 .card h3{
     font-size: 1.4rem;
     padding: 1rem;
