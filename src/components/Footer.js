@@ -22,8 +22,9 @@ const Footer = () => {
           </div>
         </div>
         <div className='right'>
-          <h4>About Myself</h4>
-          <p>Hello, I am Mohamed Arafath. I am an Machine Learning Enthusiast. I have done many projects related to Machine Learning. Please visit my projects page for more details.</p>
+          <h4>Social Media</h4>
+          <p>Hi there! If you're interested in connecting with me on social media, I'd be thrilled to have you join me on my various platforms.
+          <br /> <br /> No matter which platform you choose to connect with me on, I'm excited to get to know you and share my experiences with you. Thanks for considering connecting with me on social media!</p>
           <div className='social'>
             <a href='https://www.instagram.com/mohamedarafath205/'><FaInstagram size={30} style={{marginRight: '1rem'}} /></a>
             <a href='https://github.com/MohamedArafath205'><FaGithub size={30} style={{color: "#ffffff", marginRight: '1rem'}} /></a>
