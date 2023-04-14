@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import Home from './routes/Home'
 import Projects from './routes/Projects'
 import Resume from './routes/Resume'
@@ -9,7 +9,7 @@ import About from './routes/About'
 
 function App() {
   ReactDOM.render (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
@@ -17,7 +17,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </BrowserRouter>,
+    </HashRouter>,
     document.getElementById('root')
   );
 }
