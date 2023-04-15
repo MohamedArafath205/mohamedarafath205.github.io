@@ -1,4 +1,3 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Allow: https://mohamedarafath205.github.io/5457530_8.xml
 Disallow:
