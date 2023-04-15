@@ -6,7 +6,6 @@ import Projects from './routes/Projects'
 import Resume from './routes/Resume'
 import Contact from './routes/Contact'
 import About from './routes/About'
-import Sitemap from './routes/sitemap.xml'
 
 function App() {
   ReactDOM.render (
