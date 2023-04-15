@@ -1,11 +1,3 @@
-#video {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-}
-
 .hero{
     height: 100vh;
     width: 100%;
@@ -25,4 +17,24 @@
 .hero .content h1{
     font-size: 4rem;
     color: #fff;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.content .btn{
+    position: relative;
+    top: 10vh;
+}
+
+
+@media screen and (max-width: 1140px){
+    .content .btn{
+        position: relative;
+        top: 0;
+    }
 }

@@ -12,11 +12,11 @@ const Video = () => {
     <div className='content'>
         <h1>Hey there,</h1>
         <p>I am Mohamed Arafath</p>
-    <div>
-        <Link to='/projects' className='btn'>Projects</Link>
-        <Link to='/Resume' className='btn'>Resume</Link>
-        <Link to='/contact' className='btn'>Contact</Link>
-    </div>
+        <div>
+          <Link to='/projects' className='btn'>Projects</Link>
+          <Link to='/Resume' className='btn'>Resume</Link>
+          <Link to='/contact' className='btn'>Contact</Link>
+        </div>
     </div>
     </div>
   )

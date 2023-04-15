@@ -1,16 +1,15 @@
 import React from 'react'
-import globe from '../assets/videos/video-2.mp4'
 import './Resumepage.css'
+import resume from '../assets/images/Resume(14-4-23).jpg'
+import download from '../assets/images/Resume(14-4-23).pdf'
 
 const Resume = () => {
   return (
     <div className='hero'>
-        <video autoPlay loop muted id='video'>
-            <source src={globe} type='video/mp4' />
-        </video>
-    <div className='content'>
-        <h1>Coming Soon!!</h1>
-        </div>
+      <div className='content'>
+        <img className="img" src={resume} alt='resume' />
+        <a href={download} className='btn' download="Mohamed Arafath's Resume">Download</a>
+      </div>
     </div>
   )
 }
