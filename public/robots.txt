@@ -1,4 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Allow: /5457530_8.xml
-Disallow:
+sitemap: https://mohamedarafath205.github.io/545730_8.xml
+Disallow: 
