@@ -7,6 +7,35 @@ const projects = () => {
     <div className='projects'>
       <div className='card-container'>
         <div className='card'>
+            <h3>MACHINE LEARNING</h3>
+            <span className='bar'></span>
+            <p className='prj1'>Face Recognition</p>
+            <p>A Machine Learning model created using prebuild model. We need to feed the images to the model and it will predict if the same person is there else it will mark as unknown.</p>
+            <Link to='https://github.com/MohamedArafath205/Face-Recognition-System' className='btn'>source code</Link>
+        </div>
+        <div className='card'>
+            <h3>MACHINE LEARNING</h3>
+            <span className='bar'></span>
+            <p className='prj1'>Image Recognition</p>
+            <p>A Machine Learning Model using Deep Face library to detect the emotions of that image. This project is similar to the Emotion Detector but this uses image.</p>
+            <Link to='https://github.com/MohamedArafath205/Face-Recognition-System' className='btn'>source code</Link>
+        </div>
+        <div className='card'>
+            <h3>MACHINE LEARNING</h3>
+            <span className='bar'></span>
+            <p className='prj1'>Mine or Rock</p>
+            <p>This is a Machine Learning model created to predict whether the given input are of a rock or mine. It needs 59 values for it's evaluation. This ML model has 75% of accuracy.</p>
+            <Link to='https://mohamedarafath.streamlit.app/' className='btn'>live demo</Link>
+            <Link to='https://github.com/MohamedArafath205/Streamlit' className='btn'>source code</Link>
+        </div>
+        <div className='card'>
+            <h3>MACHINE LEARNING</h3>
+            <span className='bar'></span>
+            <p className='prj1'>Emotion Detector</p>
+            <p>This Machine Learning model is used to detect emotions using deepface library using your webcam. It also uses haarcascade_frontalface_default.xml file created by OpenCV to recognize the human face and to draw a rectangle around it.</p>
+            <Link to='https://github.com/MohamedArafath205/Face-Recognition-System' className='btn'>source code</Link>
+        </div>
+        <div className='card'>
             <h3>PYTHON & AI</h3>
             <span className='bar'></span>
             <p className='prj1'>Jarvis</p>
@@ -32,16 +61,7 @@ const projects = () => {
             <span className='bar'></span>
             <p className='prj1'>Expense Tracker</p>
             <p>A Expense Tracker application build using HTML and Javascript. It stores your input and tells you the profit or loss status for you. It is easy to use.</p>
-            <Link to='https://mohamedarafath205.github.io/Expense-Tracker-/' className='btn'>live demo</Link>
             <Link to='https://github.com/MohamedArafath205/Expense-Tracker-' className='btn'>source code</Link>
-        </div>
-        <div className='card'>
-            <h3>MACHINE LEARNING</h3>
-            <span className='bar'></span>
-            <p className='prj1'>Mine or Rock</p>
-            <p>This is a Machine Learning model created to predict whether the given input are of a rock or mine. It needs 59 values for it's evaluation. This ML model has 75% of accuracy.</p>
-            <Link to='https://mohamedarafath.streamlit.app/' className='btn'>live demo</Link>
-            <Link to='https://github.com/MohamedArafath205/Streamlit' className='btn'>source code</Link>
         </div>
         <div className='card'>
             <h3>PYTHON</h3>
