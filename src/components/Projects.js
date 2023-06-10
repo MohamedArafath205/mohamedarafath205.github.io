@@ -16,9 +16,9 @@ const projects = () => {
         <div className='card'>
             <h3>MACHINE LEARNING</h3>
             <span className='bar'></span>
-            <p className='prj1'>Image Recognition</p>
-            <p>A Machine Learning Model using Deep Face library to detect the emotions of that image. This project is similar to the Emotion Detector but this uses image.</p>
-            <Link to='https://github.com/MohamedArafath205/Face-Recognition-System' className='btn'>source code</Link>
+            <p className='prj1'>Emotion Detector</p>
+            <p>This Machine Learning model is used to detect emotions using deepface library using your webcam. It also uses haarcascade_frontalface_default.xml file created by OpenCV to recognize the human face and to draw a rectangle around it.</p>
+            <Link to='https://github.com/MohamedArafath205/live-emotion-detector' className='btn'>source code</Link>
         </div>
         <div className='card'>
             <h3>MACHINE LEARNING</h3>
@@ -31,9 +31,9 @@ const projects = () => {
         <div className='card'>
             <h3>MACHINE LEARNING</h3>
             <span className='bar'></span>
-            <p className='prj1'>Emotion Detector</p>
-            <p>This Machine Learning model is used to detect emotions using deepface library using your webcam. It also uses haarcascade_frontalface_default.xml file created by OpenCV to recognize the human face and to draw a rectangle around it.</p>
-            <Link to='https://github.com/MohamedArafath205/Face-Recognition-System' className='btn'>source code</Link>
+            <p className='prj1'>Image Recognition</p>
+            <p>A Machine Learning Model using Deep Face library to detect the emotions of that image. This project is similar to the Emotion Detector but this uses image.</p>
+            <Link to='https://github.com/MohamedArafath205/Emotion-Detector' className='btn'>source code</Link>
         </div>
         <div className='card'>
             <h3>PYTHON & AI</h3>
