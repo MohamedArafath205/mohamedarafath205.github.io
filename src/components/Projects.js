@@ -6,6 +6,13 @@ const projects = () => {
   return (
     <div className='projects'>
       <div className='card-container'>
+      <div className='card'>
+            <h3>FLUTTER</h3>
+            <span className='bar'></span>
+            <p className='prj1'>Cafe Connect</p>
+            <p>A Flutter application built for our college cafeteria to reduce the overcrowding issue by generating an token after the payment is successfull.</p>
+            <Link to='https://github.com/MohamedArafath205/Cafe-Connect' className='btn'>source code</Link>
+        </div>
         <div className='card'>
             <h3>MACHINE LEARNING</h3>
             <span className='bar'></span>
