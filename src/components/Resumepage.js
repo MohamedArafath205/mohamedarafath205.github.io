@@ -1,7 +1,7 @@
 import React from 'react'
 import './Resumepage.css'
-import resume from '../assets/images/Resume(14-4-23).jpg'
-import download from '../assets/images/Resume(14-4-23).pdf'
+import resume from '../assets/images/Resume.jpg'
+import download from '../assets/images/MohamedResume.pdf'
 import {message} from 'antd';
 
 const Resume = () => {
