@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.86d278a9.css",
-    "main.js": "/static/js/main.7e983be0.js",
+    "main.js": "/static/js/main.0b79207e.js",
     "static/media/video-2.mp4": "/static/media/video-2.39e6c79bffb375ae929a.mp4",
     "static/media/image5.webp": "/static/media/image5.9440f4ad3217b2c7bf31.webp",
     "static/media/image6.jpg": "/static/media/image6.4844d39737535ef87b39.jpg",
     "static/media/image3.webp": "/static/media/image3.7dc0be2a0438c0005c5d.webp",
-    "static/media/Resume(14-4-23).jpg": "/static/media/Resume(14-4-23).3e957d96087ad298178d.jpg",
+    "static/media/Resume.jpg": "/static/media/Resume.3f61b305a881797d731f.jpg",
     "static/media/image2.webp": "/static/media/image2.26b61425297fc0ec68b4.webp",
     "static/media/image4.webp": "/static/media/image4.c4800b9ebabe8d4e0bce.webp",
+    "static/media/MohamedResume.pdf": "/static/media/MohamedResume.1f56fcd7d84abdc3e5d5.pdf",
     "static/media/image1.webp": "/static/media/image1.66feeca68222df5a9da7.webp",
-    "static/media/Resume(14-4-23).pdf": "/static/media/Resume(14-4-23).cc53da31c365e0737115.pdf",
     "index.html": "/index.html",
     "main.86d278a9.css.map": "/static/css/main.86d278a9.css.map",
-    "main.7e983be0.js.map": "/static/js/main.7e983be0.js.map"
+    "main.0b79207e.js.map": "/static/js/main.0b79207e.js.map"
   },
   "entrypoints": [
     "static/css/main.86d278a9.css",
-    "static/js/main.7e983be0.js"
+    "static/js/main.0b79207e.js"
   ]
 }
