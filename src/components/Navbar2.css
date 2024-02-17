@@ -1,0 +1,27 @@
+.navbar{
+    position: fixed;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+    height: 50px;
+    padding: 1rem;
+    margin-left: 5%;
+    background-color: #222;
+    margin-top: 0.5%;
+    z-index: 10;
+    border-radius: 40px;
+}
+
+.nav-heading{
+    padding-left: 5px;
+}
+
+.navmenu{
+    display: flex;
+}
+
+.navmenu li{
+    color: white;
+    padding: 0 1rem;
+}
